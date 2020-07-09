@@ -1,3 +1,6 @@
+# Author's Email: brusilva@cisco.com
+# Author's Name: Bruno Novais
+
 import json
 import argparse
 import glob

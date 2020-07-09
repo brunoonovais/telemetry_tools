@@ -93,6 +93,8 @@ Script located here: https://github.com/yixingqiu1208/elastic-search-toolkit
 
 ## GNMI - get_config.py ##
 
+Install gnmi api from this repository: https://github.com/GregoryBrown/gNMI-API
+
 ```
 (venv)$ python get_config.py -h
 usage: get_config.py [-h] [--dir DIR] [--username USERNAME]

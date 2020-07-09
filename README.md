@@ -89,6 +89,7 @@ python ./ssh_script/ssh_subscribe.py -u cisco -p lab123 -a "172.16.42.1" -s 40 -
 ```
 
 SSH Stress script that opens up many threads to stress SSH on the router.
+Script located here: https://github.com/yixingqiu1208/elastic-search-toolkit
 
 ## GNMI - get_config.py ##
 

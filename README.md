@@ -31,6 +31,7 @@ Then runs pyang -f keys module to build keys file and puts into -y filename.
 ## pyang -f keys 'yang files' ##
 
 Generates yang keys file for a certain list of models.
+Install "pyang_keys_module.py" into your pyang installation folder and rename to keys.py to use it individually for a certain model.
 
 ## ncclient_get-capabilities.py ##
 

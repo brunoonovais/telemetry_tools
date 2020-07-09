@@ -85,7 +85,7 @@ optional arguments:
                         Bulk size of the data list
 
 Example:
-python ./ssh_script/ssh_subscribe.py -u cisco -p lab123 -a "172.16.42.1" -s 40 -d 10 -i 1 -f /home/lab/fb_gnmi/gNMI-API/ssh_script/commands.txt -e yes -b 10&
+python ./ssh_script/ssh_subscribe.py -u cisco -p lab123 -a "172.16.42.1" -s 40 -d 10 -i 1 -f /tmp/commands.txt -e yes -b 10&
 ```
 
 SSH Stress script that opens up many threads to stress SSH on the router.

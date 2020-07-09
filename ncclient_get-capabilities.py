@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# Author's Email: brusilva@cisco.com
+# Author's Name: Bruno Novais
+
 from ncclient import manager, operations, xml_
 from lxml import etree
 import logging

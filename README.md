@@ -1,7 +1,7 @@
 ## grpc-download-pem-files.py ##
 
 ```
-(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API$ python grpc-download-pem-files.py -h
+(venv)$ python grpc-download-pem-files.py -h
 usage: grpc-download-pem-files.py [-h] [--dir DIR] [--names NAMES]
                                   [--username USERNAME] [--password PASSWORD]
 
@@ -36,7 +36,7 @@ Install "pyang_keys_module.py" into your pyang installation folder and rename to
 ## ncclient_get-capabilities.py ##
 
 ```
-(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API$ python ncclient_get-capabilities.py -h
+(venv)$ python ncclient_get-capabilities.py -h
 usage: ncclient_get-capabilities.py [-h] [--username USERNAME]
                                     [--password PASSWORD] [--host HOST]
 
@@ -51,22 +51,10 @@ optional arguments:
 
 Prints capabilities to screen.
 
-## config_unconfig.py ## 
-
-```python config_unconfig.py -u <user> -p <pass>```
-
-It goes over pre-defined list and does a NO then rollback on the config.
-
-## asyncssh_netconf.py ##
-
-```python asyncssh_netconf.py --count 1 --sleep 1 "BGP ConfigInstanceTable"```
-
-Uses asyncssh library to run "netconf format" (netconf xml) and execute a oper GET.
-
 ## ssh_subscribe.py ##
 
 ```
-(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API/ssh_script$ python ssh_subscribe.py -h
+(venv)$ python ssh_subscribe.py -h
 usage: ssh_subscribe.py [-h] [-u USERNAME] [-p PASSWORD] -a HOST [-s SEM]
                         [-d DURATION] [-i INTERVAL] [-f FILENAME] [-e ELASTIC]
                         [-o OUTPUT] [-b BULKSIZE]
@@ -105,7 +93,7 @@ SSH Stress script that opens up many threads to stress SSH on the router.
 ## GNMI - get_config.py ##
 
 ```
-(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API$ python get_config.py -h
+(venv)$ python get_config.py -h
 usage: get_config.py [-h] [--dir DIR] [--username USERNAME]
                      [--password PASSWORD] [--port PORT] [--hosts HOSTS]
                      [--models MODELS] [--elastic ELASTIC]
@@ -140,7 +128,7 @@ uses gNMI get for getting configuration and uploading to Elastic Search.
 ## GNMI - set_config.py ##
 
 ```
-(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API$ python set_config.py -h
+(venv)$ python set_config.py -h
 usage: set_config.py [-h] [--dir DIR] [--username USERNAME]
                      [--password PASSWORD] [--port PORT] [--hosts HOSTS]
                      [--config CONFIG] [--full_config FULL_CONFIG]
@@ -170,7 +158,7 @@ reads config from file in json format and sets it. Important to define operation
 
 ## GNMI - subscribe.py ##
 
-```(venv) lab@web-ott-execution-server-1:~/fb_gnmi/gNMI-API$ python subscribe.py -h
+```(venv)$ python subscribe.py -h
 usage: subscribe.py [-h] [--dir DIR] [--username USERNAME]
                     [--password PASSWORD] [--port PORT] [--hosts HOSTS]
                     [--models MODELS] [--yang_keys YANG_KEYS]
